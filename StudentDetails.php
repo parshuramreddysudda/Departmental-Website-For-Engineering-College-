@@ -14,12 +14,12 @@ if (!$conn)
 $facyearpostvalue = $_POST['facyearcont'];
  
 //Checking the result
-echo $facyearpostvalue;
+//echo $facyearpostvalue;
  
 $facuser=$_SESSION['username'];
  
 $studentid=$_POST['studentid'];
-echo "Roll is ".$studentid;
+//echo "Roll is ".$studentid;
 $facuser=substr($facuser,2,4);
 if($facyearpostvalue==null)
 {
@@ -62,7 +62,6 @@ if(isset($studentid))
         }
      }
  
-echo $year;
  
 //Getting Image of student code starts here
 $sqlimg = "SELECT  imgpath  FROM  student  WHERE id='$studentid'";
@@ -79,8 +78,7 @@ if (mysqli_num_rows($resultimg) > 0)
           }
         }
      }
-  echo "path is ".$imgpath;
- 
+
    
    
 //Getting Subjects Values of Student  Code Started Here
@@ -213,7 +211,7 @@ if (mysqli_num_rows($result4) > 0){
      <!--Php Code for Changing sub year-->          
  
                 <form action="Faculty.php" method="post" id="studentid">
-                <input type="text" name="studentid"style="width:99px;"><button class="btn btn-primary" type="submit" id="studentid" style="padding:5px;margin:20px;width:72px;">Submit</button>
+                <input type="text" required maxlength="10" name="studentid"style="width:99px;"><button class="btn btn-primary"   type="submit" id="studentid" style="padding:5px;margin:20px;width:72px;">Submit</button>
                 </form>
             </div>
         </div>

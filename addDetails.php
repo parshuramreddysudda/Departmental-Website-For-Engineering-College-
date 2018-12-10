@@ -8,7 +8,6 @@
 $roll=$_SESSION["rollsession"];
 $sname=$_SESSION["sname"];
 $fname=$_SESSION["fname"];
-echo $roll;
 //Code completed for retrieving values
 
 ////////Image Upload PHP code Starts here ////////

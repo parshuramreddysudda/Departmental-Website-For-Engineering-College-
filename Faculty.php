@@ -14,7 +14,7 @@ if (!$conn)
 $facyearpostvalue = $_POST['facyearcont'];
  
 //Checking the result
-echo $facyearpostvalue;
+//echo $facyearpostvalue;
  
 $facuser=$_SESSION['username'];
  
@@ -61,8 +61,12 @@ if(isset($studentid))
            
         }
      }
- 
-echo $year;
+    else
+    {
+          echo "<script type=\"text/javascript\">
+   alert('No records Found');
+           </script>";
+    }
  
 //Getting Image of student code starts here
 $sqlimg = "SELECT  imgpath  FROM  student  WHERE id='$studentid'";
@@ -79,9 +83,7 @@ if (mysqli_num_rows($resultimg) > 0)
           }
         }
      }
-  echo "path is ".$imgpath;
- 
-   
+
    
 //Getting Subjects Values of Student  Code Started Here
    
@@ -101,6 +103,12 @@ if (mysqli_num_rows($result1) > 0)
          
     }
 }
+    else
+    {
+          echo "<script type=\"text/javascript\">
+   alert('No records Found');
+           </script>";
+    }
    
 $sql2 = "SELECT sub210,sub211,sub212,sub213,sub214,sub215,sub216,sub217,sub218,sub219,sub220,sub221,sub222,sub223,sub224,sub225,sub226,sub227,sub228,sub229 FROM subjects WHERE subyear='$year'";
 $result2 = mysqli_query($conn, $sql2);
@@ -156,6 +164,12 @@ if (mysqli_num_rows($result4) > 0){
  
   
  
+}
+else
+{
+      echo "<script type=\"text/javascript\">
+   alert('No Record');
+           </script>";
 }
 ?>
  
@@ -213,7 +227,7 @@ if (mysqli_num_rows($result4) > 0){
      <!--Php Code for Changing sub year-->          
  
                 <form action="Faculty.php" method="post" id="studentid">
-                <input type="text" name="studentid"style="width:99px;"><button class="btn btn-primary" type="submit" id="studentid" style="padding:5px;margin:20px;width:72px;">Submit</button>
+                <input type="text" name="studentid"  required maxlength="10" style="width:99px;"><button class="btn btn-primary" type="submit"  id="studentid" style="padding:5px;margin:20px;width:72px;">Submit</button>
                 </form>
             </div>
         </div>

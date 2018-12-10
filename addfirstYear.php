@@ -9,7 +9,6 @@ $roll=$_SESSION["rollsession"];
 $sname=$_SESSION["sname"];
 $fname=$_SESSION["fname"];
 $year=$_SESSION["year"];
-echo $year;
 //Code completed for retrieving values
 
 

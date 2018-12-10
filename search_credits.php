@@ -1,6 +1,7 @@
 <?php
-
+ini_set('display_errors', 'off');
 include'config.php';
+include 'updateYear.php';
 
 
 
@@ -8,14 +9,8 @@ $subCred=$_POST['Credi'];
 $subYear=$_POST['submitYear'];
 $subSem=$_POST['submitSem'];
 
-echo $subCred;
-echo $subYear;
-echo $subSem;
-
-
-
 ?>
-
+ 
 <!DOCTYPE html>
 <html>
 
@@ -122,317 +117,16 @@ echo $subSem;
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>11</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>12</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>13</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>14</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>15</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>16</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>17</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>18</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>19</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>20</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>21</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>22</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>23</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>24</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>25</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>26</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>27</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>28</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>29</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>30</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>31</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>32</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                    </tr>
-                    <tr>
-                        <td>33</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                    </tr>
-                    <tr>
-                        <td>34</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                    </tr>
-                    <tr>
-                        <td>35</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                    </tr>
-                    <tr>
-                        <td>36</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                    </tr>
-                    <tr>
-                        <td>37</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    <div class="footer-clean" style="background-color:rgb(49,55,58);">
-        <footer>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-sm-4 col-md-3 item"><img style="background-image:url(&quot;assets/img/36929706_1044434599064256_6289139470734196736_n.png&quot;);background-size:cover;height:69px;width:397px;background-color:#31373a;"></div>
-                    <div class="col-sm-4 col-md-3 item" style="width:50px;"></div>
-                    <div class="col-sm-4 col-md-3 item" style="width:147px;"></div>
-                    <div class="col-lg-3 item social" style="width:313px;">
-                        <h3 style="color:rgb(231,231,231);">E-mail Developers @</h3>
-                        <ul>
-                            <li><a href="mailto:parshuram.sudda@gmail.com" style="color:rgb(225,226,227);width:160px;">Parshuram[dot]sudda[at]gmail[dot]com</a></li>
-                            <li style="width:274px;"><a href="mailto:vishnurapuru10@gmail.com" style="color:rgb(215,215,215);width:47px;">Vishnurapuru[(2+3)+5][at]gmail[dot]com</a></li>
-                        </ul>
-                        <p class="copyright" style="color:rgb(251,252,252);">AiPlus © 2018</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
-    <script src="assets/js/script.min.js"></script>
-</body>
-<script>
-
-    
-function getValuesSelected() 
-    {
-    var year=document.getElementById("yearSelect").value;
-    var sem=document.getElementById("semSelect").value;
-   
-    }
-    alert(year);
-</script>
-    
-    
-    
-</html>
-<?php
-
-if(isset($subCred)&&isset($subYear)&&isset($subSem))
+            
+                        
+                        <?php
+                      if(isset($subCred)&&isset($subYear)&&isset($subSem))
 {
-echo $subCred;
-echo $subYear;
-echo $subSem;
-    
-    
+//echo $subCred;
+//echo $subYear;
+//echo $subSem;
+//    
+//    
     
 //    
 //$sql="SELECT $subYear.id FROM $subYear INNER JOIN student ON student.id =$subYear.id WHERE student.presentyear = '$subYear' AND $subYear.arr57>12";
@@ -497,9 +191,7 @@ echo $subSem;
 
 function sqlCheckCredit($sem,$subCred,$subYear)
 {
-    $sql="SELECT $subYear.id FROM $subYear INNER JOIN student ON student.id =$subYear.id WHERE student.presentyear = '$subYear' AND $subYear.$sem<=$subCred";
-    
-    echo $sql;
+    $sql="SELECT $subYear.id,$subYear.$sem FROM $subYear INNER JOIN student ON student.id =$subYear.id WHERE student.presentyear = '$subYear' AND $subYear.$sem<=$subCred";
         
 $result=$GLOBALS['conn']->query($sql);
     
@@ -508,20 +200,105 @@ if ($result->num_rows > 0)
     
     while($row = $result->fetch_assoc())
     {
-//        echo  $row["id"]. "<br>";
-       //$selectYear[] = $row['id'];
-        echo $row['id'];
-
-
-    
+//        echo $row['id'];
+        $credStudentId[]=$row['id'];
+        $credStudentCred[]=$row[$sem];
+        
     }
         
 }
-
     
+    else
+    {
+    echo "<script type=\"text/javascript\">
+            alert('There are No records with these Credits ');
+
+            </script>";
+    }
+    
+$inc=1;
+    
+    if(isset($credStudentId))
+    {
+        
+for($i=0;$i<count($credStudentId);$i++)
+   {
+      $sqlCred="SELECT id,name,presentyear from student where id='$credStudentId[$i]'";
+         $resultCred=$GLOBALS['conn']->query($sqlCred);
+    
+    if ($resultCred->num_rows >= 0) 
+    {
+    
+        while($rowCred=$resultCred->fetch_assoc())
+        {
+//        echo $row['id'];
+                  
+            
+             echo "<tr><td>".$inc."</td><td>".$rowCred['id']."</td><td>".$rowCred['name']."</td><td>".$rowCred['presentyear']."</td><td>".$credStudentCred[$i]."</td></tr>";
+            
+    
+        }
+        
+    }
+    else
+    {
+        echo "printed";
+    }
+    $inc++;
+    
+}
+    }
     
 }
 
+                        
+                        ?>
+
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="footer-clean" style="background-color:rgb(49,55,58);">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item"><img style="background-image:url(&quot;assets/img/36929706_1044434599064256_6289139470734196736_n.png&quot;);background-size:cover;height:69px;width:397px;background-color:#31373a;"></div>
+                    <div class="col-sm-4 col-md-3 item" style="width:50px;"></div>
+                    <div class="col-sm-4 col-md-3 item" style="width:147px;"></div>
+                    <div class="col-lg-3 item social" style="width:313px;">
+                        <h3 style="color:rgb(231,231,231);">E-mail Developers @</h3>
+                        <ul>
+                            <li><a href="mailto:parshuram.sudda@gmail.com" style="color:rgb(225,226,227);width:160px;">Parshuram[dot]sudda[at]gmail[dot]com</a></li>
+                            <li style="width:274px;"><a href="mailto:vishnurapuru10@gmail.com" style="color:rgb(215,215,215);width:47px;">Vishnurapuru[(2+3)+5][at]gmail[dot]com</a></li>
+                        </ul>
+                        <p class="copyright" style="color:rgb(251,252,252);">AiPlus © 2018</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+<script>
+
+    
+function getValuesSelected() 
+    {
+    var year=document.getElementById("yearSelect").value;
+    var sem=document.getElementById("semSelect").value;
+   
+    }
+   
+</script>
+    
+    
+    
+</html>
+<?php
 
 
 //SELECT firstyear.id FROM firstyear INNER JOIN student ON student.id = firstyear.id WHERE student.presentyear = 'fourthyear' AND firstyear.arr57>12

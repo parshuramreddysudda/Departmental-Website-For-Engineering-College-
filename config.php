@@ -2,6 +2,7 @@
 
   
   session_start(); 
+ini_set('display_errors', 'off');
 $_SESSION['url'] = $_SERVER['REQUEST_URI'];
 //Checking is seesion is hod or not 
 
@@ -12,7 +13,7 @@ $_SESSION['url'] = $_SERVER['REQUEST_URI'];
   }
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "root";
 $dbname = "registration";
 $conn = new mysqli($servername, $username, $password, $dbname);
     
