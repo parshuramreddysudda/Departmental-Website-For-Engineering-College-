@@ -12,3 +12,15 @@ Features
 6.Subjects can added to each year student separately 
 7.Each semester details are having 11 columns(10+1).
 
+
+Steps to Add Database 
+ 1.First install xammp or any local server
+ 2.Open phpMyadmin and create the database with name as 'registration'
+ 3.Import the sql Config file , which is in Database/SqlFile.sql
+ 
+ 
+ 
+ Note:Required PHP>5.0
+      Required Local server running.
+      
+      
