@@ -1,0 +1,19 @@
+#contactForm .h4 {
+  font-weight:400;
+  border-bottom:1px solid silver;
+}
+
+.required-input {
+  color:maroon;
+}
+
+.static-map {
+  margin-bottom:20px;
+}
+
+@media (max-width: 768px) and (min-width: 767px) {
+  #contactForm .static-map img {
+    width:100%;
+  }
+}
+

@@ -1,0 +1,131 @@
+.button {
+  display:inline-block;
+  position:relative;
+  margin:1em;
+  padding:10px 30px;
+  border:2px solid #cc8f52;
+  overflow:hidden;
+  text-decoration:none;
+  font-size:14px;
+  outline:none;
+  color:#cc8f52;
+  background:transparent;
+  font-family:'Titillium Web', sans-serif;
+  font-weight:700;
+}
+
+.button span {
+  -webkit-transition:0.4s;
+  -moz-transition:0.4s;
+  -o-transition:0.4s;
+  transition:0.4s;
+}
+
+.button:before, .button:after {
+  content:'';
+  position:absolute;
+  top:10px;
+  left:0;
+  width:100%;
+  text-align:center;
+  opacity:0;
+  -webkit-transition:.4s;
+  -moz-transition:.4s;
+  -o-transition:.4s;
+  transition:.4s;
+}
+
+.button:before {
+  content:attr(data-hover);
+  -webkit-transform:0.4s;
+  -moz-transform:0.4s;
+  -ms-transform:0.4s;
+  -o-transform:0.4s;
+  transform:0.4s;
+}
+
+.button:hover span, .button:active span {
+  opacity:0;
+  -webkit-transform:0.4s;
+  -moz-transform:0.4s;
+  -ms-transform:0.4s;
+  -o-transform:0.4s;
+  transform:0.4s;
+}
+
+.button:hover:before, .button:active:after {
+  opacity:1;
+  -webkit-transform:0.4s;
+  -moz-transform:0.4s;
+  -ms-transform:0.4s;
+  -o-transform:0.4s;
+  transform:0.4s;
+  -webkit-transition-delay:.4s;
+  -moz-transition-delay:.4s;
+  -o-transition-delay:.4s;
+  transition-delay:.4s;
+}
+
+.button:active:before {
+  -webkit-transform:0.4s;
+  -moz-transform:0.4s;
+  -ms-transform:0.4s;
+  -o-transform:0.4s;
+  transform:0.4s;
+  -webkit-transition-delay:0s;
+  -moz-transition-delay:0s;
+  -o-transition-delay:0s;
+  transition-delay:0s;
+}
+
+body {
+  background:#eee;
+}
+
+.picswing {
+  animation:picswing ease-in-out 1s infinite alternate;
+  transform-origin:center -20px;
+  float:left;
+  box-shadow:5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.picswing img {
+  border:5px solid #f8f8f8;
+  display:block;
+}
+
+.picswing:after {
+  content:'';
+  position:absolute;
+  width:20px;
+  height:20px;
+  border:1px solid #999;
+  top:-10px;
+  left:50%;
+  z-index:0;
+  border-bottom:none;
+  border-right:none;
+  transform:rotate(45deg);
+}
+
+.picswing:before {
+  content:'';
+  position:absolute;
+  width:5px;
+  height:5px;
+  top:-14px;
+  left:54%;
+  z-index:5;
+  border-radius:50% 50%;
+  background:#000;
+}
+
+@keyframes picswing {
+  0% {
+    transform:rotate(3deg);
+  }
+  100% {
+    transform:rotate(-3deg);
+  }
+}
+

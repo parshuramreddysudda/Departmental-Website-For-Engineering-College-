@@ -1,0 +1,14 @@
+.md-input-group.has-error .md-input {
+  border-color:red;
+}
+
+.md-input-group.has-error .md-input-label {
+  color:rgba(255,0,0,.7);
+}
+
+.md-input-group.has-error .md-message {
+  color:red;
+  transform:translate3d(0, 0, 0);
+  opacity:1;
+}
+

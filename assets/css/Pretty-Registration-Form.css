@@ -1,0 +1,208 @@
+.register-form form.custom-form {
+  padding:55px;
+  box-sizing:border-box;
+  background-color:#ffffff;
+  box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  font:bold 14px sans-serif;
+  text-align:center;
+  margin:50px;
+  color:#333;
+}
+
+@media (max-width:400px) {
+  .register-form form.custom-form {
+    padding:55px 10px;
+  }
+}
+
+.register-form .custom-form h1 {
+  display:inline-block;
+  color:#4c565e;
+  font-size:24px;
+  font-weight:bold;
+  padding:0 10px 15px;
+  margin-bottom:60px;
+  border-bottom:2px solid rgb(108, 174, 224);
+}
+
+.register-form .custom-form .form-group {
+  margin-bottom:25px;
+}
+
+.register-form .custom-form .label-column {
+  text-align:right;
+  color:#5F5F5F;
+}
+
+@media (max-width:768px) {
+  .register-form .custom-form .label-column {
+    text-align:left;
+  }
+}
+
+.register-form .custom-form .input-column {
+  color:#5f5f5f;
+  text-align:left;
+}
+
+.register-form .custom-form .input-column input {
+  color:#5f5f5f;
+  box-shadow:1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding:12px;
+  border:1px solid #dbdbdb;
+  border-radius:2px;
+  height:42px;
+}
+
+.register-form .custom-form .dropdown .dropdown-toggle {
+  background:#fff;
+  border:1px solid #dbdbdb;
+  box-shadow:1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  color:#333;
+  outline:none;
+}
+
+.register-form .custom-form .dropdown ul {
+  background:#fff;
+}
+
+.register-form .custom-form .dropdown ul li a {
+  background:#fff;
+  color:#333;
+  opacity:0.8;
+}
+
+.register-form .custom-form .dropdown ul li a:hover {
+  opacity:1;
+}
+
+.register-form .custom-form .submit-button {
+  border-radius:2px;
+  background:#6caee0;
+  color:#ffffff;
+  font-weight:bold;
+  box-shadow:1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding:14px 22px;
+  border:0;
+  margin:30px;
+  outline:none;
+}
+
+a {
+}
+
+.sentence {
+  margin-left:3vw;
+  font-size:12vw;
+  line-height:1;
+  text-transform:uppercase;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+.sentence span {
+  color:transparent;
+  text-shadow:0px 0px 0 crimson;
+  -webkit-animation:animatePullOut 0.6s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards infinite alternate;
+  animation:animatePullOut 0.6s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards infinite alternate;
+  position:relative;
+}
+
+.sentence span:nth-child(9) {
+  z-index:1;
+}
+
+.sentence span:nth-child(1) {
+  -webkit-animation-delay:0.07s;
+  animation-delay:0.07s;
+}
+
+.sentence span:nth-child(8) {
+  z-index:2;
+}
+
+.sentence span:nth-child(2) {
+  -webkit-animation-delay:0.1s;
+  animation-delay:0.1s;
+}
+
+.sentence span:nth-child(7) {
+  z-index:3;
+}
+
+.sentence span:nth-child(3) {
+  -webkit-animation-delay:0.03s;
+  animation-delay:0.03s;
+}
+
+.sentence span:nth-child(6) {
+  z-index:4;
+}
+
+.sentence span:nth-child(4) {
+  -webkit-animation-delay:0.08s;
+  animation-delay:0.08s;
+}
+
+.sentence span:nth-child(5) {
+  z-index:5;
+}
+
+.sentence span:nth-child(5) {
+  -webkit-animation-delay:0.45s;
+  animation-delay:0.45s;
+}
+
+.sentence span:nth-child(4) {
+  z-index:6;
+}
+
+.sentence span:nth-child(6) {
+  -webkit-animation-delay:0.36s;
+  animation-delay:0.36s;
+}
+
+.sentence span:nth-child(3) {
+  z-index:7;
+}
+
+.sentence span:nth-child(7) {
+  -webkit-animation-delay:0.42s;
+  animation-delay:0.42s;
+}
+
+.sentence span:nth-child(2) {
+  z-index:8;
+}
+
+.sentence span:nth-child(8) {
+  -webkit-animation-delay:0.8s;
+  animation-delay:0.8s;
+}
+
+.sentence span:nth-child(1) {
+  z-index:9;
+}
+
+.sentence span:nth-child(9) {
+  -webkit-animation-delay:0.18s;
+  animation-delay:0.18s;
+}
+
+.sentence span:nth-child(0) {
+  z-index:10;
+}
+
+.sentence span:nth-child(10) {
+  -webkit-animation-delay:1s;
+  animation-delay:1s;
+}
+
+@keyframes animatePullOut {
+  to {
+    text-shadow:5px -10px 0 crimson, 0 0 0 #ad102f, 0px -1px 0 #ad102f, 1px -2px 0 #ad102f, 1px -3px 0 #ad102f, 2px -4px 0 #ad102f, 2px -5px 0 #ad102f, 3px -6px 0 #ad102f, 3px -7px 0 #ad102f, 4px -8px 0 #ad102f, 4px -9px 0 #ad102f, 5px -10px 0 #ad102f;
+  }
+}
+

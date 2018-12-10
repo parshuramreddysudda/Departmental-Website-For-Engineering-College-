@@ -1,0 +1,6 @@
+imp notes by vaishu 
+
+
+addFirstyear.php values hide for sgpa and cgpa
+EditDetailsMain.php Pic value redirection Changed
+No year subject student redirection invalidated
