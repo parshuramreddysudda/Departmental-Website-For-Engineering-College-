@@ -18,9 +18,6 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 //Getting values from previous page 
 $Editroll=$_SESSION["Editroll"];
 $Edityear=$_SESSION["Edityear"];
-echo $Editroll;
-echo $Edityear;
-
 
 $arr1 = $_POST['arr601'];
 $arr2 = $_POST['arr602'];

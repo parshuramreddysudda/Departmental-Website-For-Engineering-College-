@@ -19,7 +19,6 @@ $facyearpostvalue = $_POST['facyearcont'];
 $facuser=$_SESSION['username'];
  
 $studentid=$_POST['studentid'];
-echo "Roll is ".$studentid;
 $facuser=substr($facuser,2,4);
 if($facyearpostvalue==null)
 {
@@ -63,9 +62,14 @@ if(isset($studentid))
      }
     else
     {
-          echo "<script type=\"text/javascript\">
+         
+        
+        if(isset($result))
+        {
+             echo "<script type=\"text/javascript\">
    alert('No records Found');
            </script>";
+        }
     }
  
 //Getting Image of student code starts here

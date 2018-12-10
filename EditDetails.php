@@ -211,7 +211,6 @@ else
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="assets/js/script.min.js"></script>
-    <p id="demo">sdfasdf</p>
     <script>
 //        var list=["name" , "fname" , "sec" , "dob" , "year" , "smobile" , "fmobile" , "landline" , "Address" , "ssc" , "inter" , "eamcet","email"];
 //        var inid=;
@@ -232,7 +231,6 @@ else
 
 <?php
 
-echo $sroll;
 if( isset($sroll) ) 
 {
 

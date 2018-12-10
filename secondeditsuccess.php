@@ -6,8 +6,6 @@ include'config.php';
 
 $Editroll=$_SESSION["Editroll"];
 $Edityear=$_SESSION["Edityear"];
-echo $Editroll;
-echo $Edityear;
 
 $arr1 = $_POST['arr201'];
 $arr2 = $_POST['arr202'];

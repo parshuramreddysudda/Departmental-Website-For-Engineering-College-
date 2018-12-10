@@ -5,7 +5,6 @@ include'config.php';
 //Getting values from previous page 
 
 $Editroll=$_SESSION["Editroll"];
-echo $Editroll;
 
 
 //Values Assigned for the posted value
@@ -52,7 +51,7 @@ if(isset($Eyear))
  }
 else
 {
-    echo "Error: " . $sqlupdate . "<br>" . mysqli_error($conn);
+//    echo "Error: " . $sqlupdate . "<br>" . mysqli_error($conn);
 }
    
 //Code completed for retrieving values
@@ -103,7 +102,7 @@ if(move_uploaded_file($temp_name, $target_path))
     }
     else
     {
-       echo "Error: " . $query_upload . "<br>" . $conn->error;
+//       echo "Error: " . $query_upload . "<br>" . $conn->error;
     }
 	
 }

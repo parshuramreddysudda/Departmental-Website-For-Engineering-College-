@@ -58,7 +58,7 @@ else
     </script>";
             unset($addr);
     }
-    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+//    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
    
 }

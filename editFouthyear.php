@@ -7,8 +7,6 @@
 
 $Editroll=$_SESSION["Editroll"];
 $Edityear=$_SESSION["Edityear"];
-echo $Editroll;
-echo $Edityear;
 
 //Code completed for retrieving values
 

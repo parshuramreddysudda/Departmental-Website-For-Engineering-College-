@@ -123,7 +123,7 @@ if ($conn->multi_query($sql) === TRUE)
     else
     {
    
-   echo $sql ."Error: " . $conn->error;
+//   echo $sql ."Error: " . $conn->error;
     }
 }
 ?>

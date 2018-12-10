@@ -5,7 +5,6 @@ include'config.php';
 //Getting values from previous page 
 
 $roll=$_SESSION["rollsession"];
-echo $roll;
 $sname=$_SESSION["sname"];
 $fname=$_SESSION["fname"];
 $year=$_SESSION["year"];

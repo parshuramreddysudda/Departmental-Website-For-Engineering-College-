@@ -23,7 +23,7 @@ if (mysqli_num_rows($resultval1) > 0)
     }
 }
 else {
-    echo "Error: " . $sqlval . "<br>" . mysqli_error($conn);
+//    echo "Error: " . $sqlval . "<br>" . mysqli_error($conn);
 }
 
 
@@ -218,7 +218,7 @@ if (mysqli_num_rows($resultval2) > 0){
     }
 }
 else {
-    echo "Error: " . $sqlval2 . "<br>" . mysqli_error($conn);
+//    echo "Error: " . $sqlval2 . "<br>" . mysqli_error($conn);
 }
 echo "<script type=\"text/javascript\">
 
@@ -406,7 +406,7 @@ if (mysqli_num_rows($resultval3) > 0){
     }
 }
 else {
-    echo "Error: " . $sqlval . "<br>" . mysqli_error($conn);
+//    echo "Error: " . $sqlval . "<br>" . mysqli_error($conn);
 }
 echo "<script type=\"text/javascript\">
 
@@ -599,7 +599,7 @@ if (mysqli_num_rows($resultval4) > 0){
     }
 }
 else {
-    echo "Error: " . $sqlval . "<br>" . mysqli_error($conn);
+//    echo "Error: " . $sqlval . "<br>" . mysqli_error($conn);
 }
 echo "<script type=\"text/javascript\">
 document.getElementById('arr601').innerHTML ='$subval4[1]'

@@ -6,8 +6,6 @@
 
 $Editroll=$_SESSION["Editroll"];
 $Edityear=$_SESSION["Edityear"];
-echo $Editroll;
-echo $Edityear;
 $arr1 = $_POST['arr1'];
 $arr2 = $_POST['arr2'];
 $arr3 = $_POST['arr3'];
