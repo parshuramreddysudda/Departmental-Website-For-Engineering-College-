@@ -75,6 +75,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
                 <a class="btn btn-outline-dark" role="button" href="register.php" style="color:rgb(250,252,255);width:79px;margin:12px;">Register</a>
                 <a class="btn btn-outline-dark" role="button" href="passwordChange.php" style="color:rgb(250,252,255);width:109px;margin:12px;">ChangePass</a>
                 <a class="btn btn-outline-dark" role="button" href="index.php" style="color:rgb(250,252,255);width:79px;margin:12px;">Logout</a>
+                 <a class="btn btn-outline-dark" role="button" href="Document.html" style="color:rgb(250,252,255);width:79px;margin:12px;">Doc</a>
                 <span
                     class="navbar-text"><a href="Developer.php" class="login" style="font-size:20px;">&nbsp;About Dev</a></span>
         </div>

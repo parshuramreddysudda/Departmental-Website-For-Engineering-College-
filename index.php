@@ -34,7 +34,10 @@ session_destroy();
                 class="collapse navbar-collapse" id="navcol-1">
                 <form class="form-inline mr-auto" target="_self">
                     <div class="form-group"><label for="search-field"></label></div>
-                </form><a class="btn btn-outline-dark" role="button" href="index.php" style="color:rgb(250,252,255);width:79px;margin:12px;">Login</a><span class="navbar-text"><a href="#" data-aos="fade" class="login" style="font-size:20px;">&nbsp;About Dev</a></span></div>
+                </form>
+                <a class="btn btn-outline-dark" role="button" href="index.php" style="color:rgb(250,252,255);width:79px;margin:12px;">Login</a>
+                <a class="btn btn-outline-dark" role="button" href="Document.html" style="color:rgb(250,252,255);width:79px;margin:12px;">Doc</a>
+                <span class="navbar-text"><a href="#" data-aos="fade" class="login" style="font-size:20px;">&nbsp;About Dev</a></span></div>
         </div>
     </nav>
     <div>
