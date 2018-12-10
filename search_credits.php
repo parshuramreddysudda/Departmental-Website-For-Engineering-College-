@@ -58,7 +58,7 @@ $subSem=$_POST['submitSem'];
             <div class="row">
                 <div class="col-md-12">
                     <div class="jumbotron">
-                        <h1 class="text-center" style="color:rgb(75,76,77);background-color:#e0e1e1;">Start your search here&nbsp;</h1>
+                        <h1 class="text-center" style="color:rgb(75,76,77);background-color:#e0e1e1;">Search for Min Credits&nbsp;</h1>
                         <div class="row">
                             <div class="col-md-6 align-self-center">
                                 <p class="text-center" style="font-size:24px;">Select the year</p>

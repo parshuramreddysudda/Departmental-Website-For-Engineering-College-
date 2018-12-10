@@ -40,23 +40,23 @@
             </div>
             <div class="row">
                 <div class="col-md-6 col-lg-4 item">
-                    <div class="card">
-                        <img class="rounded-circle" style="margin:auto auto;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="assets/img/raman.jpg">
+                    <div class="card" style="background-image: linear-gradient(180deg, grey, white);">
+                        <img class="rounded-circle" style="margin:auto auto;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="assets/img/raman1.jpg">
                         <h3 class="card-title" style="height:50px;">Parshuram Reddy</h3>
                          
  
-                        <p class="card-title" style="font-size:20px;">Developer</p>
-                        <p class="description card-text" style="">Cyber Security enthusiastic ,Blogger ,Hacker ,Work freek., Android developer,Frontend Designer,Founder of Cybertechpc, Singer ,Core Member at Primefort.</p>
+                        <p class="card-title" style="font-size:20px;color:black;">Developer</p>
+                        <p class="description card-text" style="color:rgb(30, 32, 25);" >Cyber Security enthusiastic ,Blogger ,Hacker ,Work freek., Android developer,Frontend Designer,Founder of Cybertechpc, Singer ,Core Member at Primefort.</p>
                         <div class="social" style="width:229px;padding:0px;"><a href="https://www.facebook.com/192.168.0.a"><i class="fa fa-facebook-official"></i></a><a href="https://plus.google.com/u/0/+parshuramreddys"><i class="fa fa-google-plus"></i></a><a href="https://www.instagram.com/parshuramr3ddy/"><i class="fa fa-instagram"></i></a></div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 item" ></div>
                 <div class="col-md-6 col-lg-4 item">
-                    <div class="card">
+                    <div class="card"  style="background-image: linear-gradient(180deg, grey, white);">
                           <img class="rounded-circle" style="margin:auto auto;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="assets/img/me1.jpg">
                       <h3 class="card-title" style="">Vishnu Vardhan Reddy</h3>
-                        <p class="card-title" style="font-size:20px;">Developer</p>
-                        <p class="card-text">Android developer,web Designer,Founder of plusworld,always active on social media,Worked on AI development,Pentester, Photoshopper.<br></p>
+                        <p class="card-title" style="font-size:20px;color:black;">Developer</p>
+                        <p class="card-text" style="color:rgb(30, 32, 25);">Android developer,web Designer,Founder of plusworld,always active on social media,Worked on AI development,Pentester, Photoshopper.<br></p>
                         <div class="social"><a href="https://www.facebook.com/192.168.0.plus"><i class="fa fa-facebook-official"></i></a><a href="https://plus.google.com/u/0/104092792464982626076"><i class="fa fa-google-plus"></i></a><a href="https://www.instagram.com/__vishnuvardhan_r3ddy__/"><i class="fa fa-instagram"></i></a></div>
                     </div>
                 </div>

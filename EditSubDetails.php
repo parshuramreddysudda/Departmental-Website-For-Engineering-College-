@@ -686,7 +686,7 @@ echo$postyear," Year";?> Eigth Sem</h1>
                 <div class="col-md-6 align-self-center" style="width:471px;">
                     
                      <button class="btn btn-outline-primary btn-block btn-lg"   type="submit" form="subform" style="background-color:#030303;color:rgb(254,255,255);"  value="submit">
-        Sumit the values</button>
+        Submit the values</button>
              </div>
             </div>
         </div>
