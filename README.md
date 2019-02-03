@@ -1,4 +1,4 @@
-# DepartMental Website For Engineering College 
+# Template for Department Website of Engineering College 
 
 This website is Builed for College Purposes
 
