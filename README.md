@@ -21,6 +21,6 @@ Steps to Add Database
  
  
  Note:Required PHP>5.0
-      For Smooth Running Local server running.
+      For Smooth Running Local server.
       
       
