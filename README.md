@@ -16,7 +16,9 @@ Features
 Steps to Add Database 
 
   1.First install xammp or any local server.
+  
   2.Open phpMyadmin and create the database with name as 'registration'.
+  
   3.Import the sql Config file , which is in Database/SqlFile.sql.
  
  
