@@ -18,7 +18,7 @@ $_SESSION['url'] = $_SERVER['REQUEST_URI'];
   	header('location: HodLogin.php');
   }
 $servername = "localhost";
-$username = "root";
+$username = "Hod";
 $password = "root";
 $dbname = "registration";
 $conn = new mysqli($servername, $username, $password, $dbname);

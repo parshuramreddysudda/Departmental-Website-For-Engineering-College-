@@ -35,37 +35,36 @@ include('server.php')
 <body style="background-image:url(&quot;none&quot;);padding:0px;">
     <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search" style="color:rgb(159,158,158);background-color:#545555;">
         <div class="container-fluid"><a class="navbar-brand" href="#" style="font-family:ABeeZee, sans-serif;font-size:16px;color:#d7d4d4;">Sri Indu College Of Engineering &amp; Technology</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1">
+            <div class="collapse navbar-collapse" id="navcol-1">
                 <form class="form-inline mr-auto" target="_self">
                     <div class="form-group"><label for="search-field"></label></div>
                 </form><a class="btn btn-outline-dark" role="button" href="HodIndex.php" style="color:rgb(250,252,255);width:79px;margin:12px;border:none;">Home</a><a class="btn btn-outline-dark" role="button" href="index.php" style="color:rgb(250,252,255);width:79px;margin:12px;">Logout</a>
-                <span
-                    class="navbar-text"><a href="Developer.php" class="login" style="font-size:20px;">&nbsp;About Dev</a></span>
-        </div>
+                <span class="navbar-text"><a href="Developer.php" class="login" style="font-size:20px;">&nbsp;About Dev</a></span>
+            </div>
         </div>
     </nav>
     <div style="height:25px;"></div>
-    <div>  
-       
+    <div>
+
         <div class="container">
-            
+
             <div class="row">
-                
+
                 <div class="col-md-12 align-self-center" style="background-color:#eae9e9;">
-  	
+
                     <form method="post" action="HodLogin.php" class="custom-form" style="width:75%;margin:76px;padding:115px;background-color:#fbf7f7;">
                         <?php include('errors.php'); ?>
                         <h1 class="text-center" data-aos="fade-up" data-aos-duration="900" style="background-color:#c6c6c6;font-family:Adamina, serif;">Hod Login Form</h1>
                         <div class="form-row form-group" data-aos="fade-up" data-aos-duration="1100">
-                            <div class="col-sm-4 label-column" style="background-color:#dcdbdb;"><label class="col-form-label" >Email </label></div>
+                            <div class="col-sm-4 label-column" style="background-color:#dcdbdb;"><label class="col-form-label">Email </label></div>
                             <div class="col-sm-6 input-column"><input class="form-control" name="username"></div>
                         </div>
                         <div class="form-row form-group" data-aos="fade-up" data-aos-duration="1350">
                             <div class="col-sm-4 label-column" style="background-color:#d9d8d8;"><label class="col-form-label" for="pawssword-input-field">Password </label></div>
                             <div class="col-sm-6 input-column"><input class="form-control" type="password" name="password"></div>
                         </div>
-                    	<button type="submit" class="btn" name="login_user">Login</button></form>
+                        <button type="submit" class="btn" name="login_user">Login</button>
+                    </form>
                 </div>
             </div>
         </div>

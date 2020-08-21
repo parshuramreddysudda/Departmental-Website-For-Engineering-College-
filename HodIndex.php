@@ -24,8 +24,8 @@ $_SESSION['url'] = $_SERVER['REQUEST_URI'];
       echo "<script type=\"text/javascript\">
             alert('Only Hod access the Access' )
             </script>";
-//  	$_SESSION['msg'] = "You must log in first";
-//  	header('location: HodLogin.php');
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: HodLogin.php');
       
       
   }
